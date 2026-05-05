@@ -1,6 +1,6 @@
 import React from "react";
 
-const About = ({ image, about }) => {
+const About = ({ image = "https://via.placeholder.com", about }) => {
   return (
     <>
       <aside>

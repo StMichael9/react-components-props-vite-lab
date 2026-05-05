@@ -1,6 +1,6 @@
 import React from "react";
 
-const Article = ({ title, date, preview }) => {
+const Article = ({ title, date = "May 5 2026", preview }) => {
   return (
     <article>
       <h3>{title}</h3>
